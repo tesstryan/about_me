@@ -11,3 +11,30 @@
  *= require_self
  *= require_tree .
  */
+
+body {
+  font-family: 'Playfair Display', serif;
+}
+
+.main {
+  text-align: center;
+  font-size: 20px;
+}
+
+.section {
+  margin-left: 15%;
+  
+  .content {
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    width: 40%;
+    height: 550px;
+  }
+
+  .right {
+    background-image: url('http://placekitten.com/g/426/550');
+  }
+}
+
+
