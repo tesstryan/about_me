@@ -30,6 +30,12 @@ body {
     border-radius: 2px;
     width: 40%;
     height: 550px;
+    vertical-align: top;
+    text-align: left;
+
+    ul {
+      list-style: none; 
+    }
   }
 
   .right {
