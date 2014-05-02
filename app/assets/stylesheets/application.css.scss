@@ -31,10 +31,12 @@ body {
     width: 40%;
     height: 550px;
     vertical-align: top;
-    text-align: left;
 
     ul {
       list-style: none; 
+      padding-left: 5px;
+      line-height: 2;
+      font-family: 'PT Sans', sans-serif;
     }
   }
 
