@@ -5,6 +5,8 @@ gem 'rails', '4.0.3'
 
 gem 'twitter', '~> 5.5.1'
 
+gem 'instagram'
+
 group :development do
   gem 'exportr'
 end
