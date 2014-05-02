@@ -9,6 +9,7 @@ gem 'instagram'
 
 group :development do
   gem 'exportr'
+  gem 'pry'
 end
 
 # Use sqlite3 as the database for Active Record

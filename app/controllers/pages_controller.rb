@@ -5,4 +5,3 @@ def main
   # @last_gram_image = InstagramClient.new.last_gram_image
 end
 
-end
