@@ -4,8 +4,8 @@ require 'open-uri'
 require 'json'
 
 
-  def get_current_temperature(city, state)
-    forecast_url = "http://api.openweathermap.org/data/2.5/weather?q=#{city},#{state}"
+  def get_current_temperature
+    forecast_url = "http://api.openweathermap.org/data/2.5/weather?q=Chicago,IL"
     string_data = open(URI.encode(forecast_url)).read
     data = JSON.parse(string_data)
 
